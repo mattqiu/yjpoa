@@ -104,7 +104,7 @@ function http_get($url) {
 
     // 一个定时器，定时向所有uid推送当前uid在线数及在线页面数
     Timer::add(10, function(){
-		$url="http://xiaowei.test.com/index.php?m=&c=public&a=recevie_mail";
+		$url="http://yjpoa.0763gj.com/index.php?m=&c=public&a=recevie_mail";
 		echo http_get($url);
 		echo 'running';
     });

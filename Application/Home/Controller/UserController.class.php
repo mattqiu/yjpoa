@@ -100,6 +100,7 @@ class UserController extends HomeController {
 			$model -> password = md5($model -> emp_no);
 			$model -> dept_id = I('dept_id');
 			$model -> openid = $model -> emp_no;
+			$model -> clock_id = I('clock_id');
 			$model -> westatus = 1;
 			$emp_no = $model -> emp_no;
 			$name = $model -> name;

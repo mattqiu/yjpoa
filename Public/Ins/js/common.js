@@ -334,7 +334,6 @@ var Inputbox = {
 /*赋值*/
 
 function set_val(name, val) {
-
 	if ($("#" + name + " option").length > 0) {
 		if (val == "") {
 			$("#" + name + " option:first").attr('selected', 'selected');
